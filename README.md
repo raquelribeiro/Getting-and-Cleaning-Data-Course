@@ -26,7 +26,7 @@ _2. An R script with the codes of the steps for accessing, transforming and tdyi
 
 _3. A CodeBook.md with the descriptions of the variables in tidy dataset_;
 
-_4. A new tidy file called tidydata.txt_.
+_4. A new tidy file called newtidydata.txt_.
 
 #### How to create a tidy data set
 
