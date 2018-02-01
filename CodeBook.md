@@ -1,8 +1,18 @@
 ### Code Book
-#### This is a Code Book for tidydata.txt file, and it explains what the variable names are, and where they come from. For more informations about the raw original data, acess [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
+#### This is a Code Book for tidydata.txt file.
 
- [1] "timedomainbodyaccelerationmean.X"                                 
- [2] "timedomainbodyaccelerationmean.Y"                                 
+Raw data are obtained from UCI Machine Learning repository. In particular we used the Human Activity Recognition Using Smartphones Data Set [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip], that was used by the original collectors to conduct experiments exploiting Support Vector Machine (SVM).
+
+The tidy data set was created merging and labeling the train and test files available at original.zip file. 
+
+For more informations about the raw original data, acess 
+[http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
+
+#### Dimensions and Codes
+This tidy dataset has 10299 rows and 68 columns, named as follows:
+
+ [1] "timedomainbodyaccelerationmean.X"                                
+ [2] "timedomainbodyaccelerationmean.Y"                             
  [3] "timedomainbodyaccelerationmean.Z"                                 
  [4] "timedomainbodyaccelerationstandarddeviation.X"                    
  [5] "timedomainbodyaccelerationstandarddeviation.Y"                    
@@ -69,3 +79,17 @@
 [66] "frequencydomainbodybodyGyroJerkmagnitudestandarddeviation"        
 [67] "activitylabel"                                                    
 [68] "subject"  
+
+#### Atribute information
+
+For each record in the dataset it is provided: 
+- Means and standard deviations of Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
+- Means and standard deviations of Triaxial Angular velocity from the gyroscope. 
+- subject - Refers to the subjects that performed the activities. They are numbered from 1-30
+- activitylabel - Refers to the activity performed by the subjects. They are coded as:  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+
+For the original raw data details check the http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones website
+
+#### References
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
