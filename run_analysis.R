@@ -71,7 +71,9 @@ names(avg_complete)<-gsub('Body', "body",names(avg_complete))
 avg_complete_final<-avg_complete[,-c(67:561)]
 avg_complete_final_arranged<-arrange(avg_complete_final,subject,activitylabel)
 
+# I then, rearranged the last teo columns to be the first ones
+avg_complete_final_arranged1<-subset(avg_complete_final_arranged,select=c(subject, activitylabel,1:66))
 
 # 14. Creating a second dataset from the labeled dataset
 
-write.table(avg_complete_final_arranged, file = "./sem3/UCI HAR Dataset/tidydata.txt", row.names = FALSE, col.names = TRUE)
+write.table(avg_complete_final_arranged1, file = "./sem3/UCI HAR Dataset/newtidydata.txt", row.names = FALSE, col.names = TRUE)
