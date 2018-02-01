@@ -30,6 +30,7 @@ _4. A new tidy file called tidydata.txt_.
 
 #### How to create a tidy data set
 
+* **Create a directory in your system called sem3 and use it as destfile when you download the data set**
 * **Download the data from the repository, unzip it and load the files into your R working directory;**
 * **Install the following packages: plyr, dplyr, readr**
 * **Run the script available in this repo;**
