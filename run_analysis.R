@@ -72,6 +72,6 @@ avg_complete_final<-avg_complete[,-c(67:561)]
 avg_complete_final_arranged<-arrange(avg_complete_final,subject,activitylabel)
 
 
-# 13. Creating a second dataset from the labeled dataset
+# 14. Creating a second dataset from the labeled dataset
 
 write.table(avg_complete_final_arranged, file = "./sem3/UCI HAR Dataset/tidydata.txt", row.names = FALSE, col.names = TRUE)
